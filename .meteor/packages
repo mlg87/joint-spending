@@ -1,0 +1,37 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base                               # Packages every Meteor app needs to have
+mobile-experience                         # Packages for a great mobile UX
+mongo                                     # The database Meteor supports right now
+blaze-html-templates                      # Compile .html files into Meteor Blaze views
+reactive-var                              # Reactive variable for tracker
+jquery                                    # Helpful client-side library
+tracker                                   # Meteor's client-side reactive programming library
+
+standard-minifier-css                     # CSS minifier run for production mode
+standard-minifier-js                      # JS minifier run for production mode
+es5-shim                                  # ECMAScript 5 compatibility for older browsers.
+ecmascript                                # Enable ECMAScript2015+ syntax in app code
+
+insecure                                  # Allow all DB writes from clients (for prototyping)
+bootstrap                                 # front end styling
+mquandalle:jade                           # who even writes html anymore?
+coffeescript                              # might write in ECMA2015 later, but for now coffee
+jazzdragon:reactive-var-helper            # makes reactive vars very easy to deal with
+stevezhu:lodash                           # other pkgs might include underscore, but lodash is faster
+iron:router                               # handles routes
+fourseven:scss                            # more comprehensive/functional css
+reload                                    # reloads page but keeps app state
+ejson                                     # allows for a couple more JSON types
+jagi:astronomy                            # db collection mgmt
+momentjs:moment                           # makes manipulating time easy
+risul:moment-timezone                     # helps with conversions from server times and across different clients
+alanning:roles                            # makes user roles/permissions very easy
+jagi:astronomy-validators                 # validation for collections
+force-ssl                                 # keep that shit secure, b
+email                                     # native meteor, allows for emails to be sent from app (need mailgun creds)
+peerlibrary:aws-sdk                       # shim for AWS SDK to get shit to s3
